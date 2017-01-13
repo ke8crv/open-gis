@@ -25,6 +25,7 @@ class APRS(Base):
 	
 #engine = create_engine('sqlite:///test.sqlite')
 engine = create_engine('postgres://' + credentials.username + ':' + credentials.password +'@' + credentials.db_host +'/' + credentials.db_table)
+#engine = create_engine('postgres://geonode:geonode@192.168.100.123/geonode_data')
 #db = create_engine('postgres+psycopg2://' + username + ':' + geonode +'@' + db_host + '/' + db_table')
 
 Base.metadata.create_all(engine)
