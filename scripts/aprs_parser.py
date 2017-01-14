@@ -3,8 +3,9 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from geoalchemy2 import Geometry
 from setup_db import Base, APRS
+import credentials
 
-engine = create_engine('postgres://geonode:geonode@192.168.100.106/geonode_data')
+engine = create_engine('postgres://' + credentials.username + ':' + credentials.password + '@' + credentials.db_host + '/' + credentials.db_table)
 
 Base.metadata.bind = engine
 
