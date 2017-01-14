@@ -1,0 +1,5 @@
+site_name: Eratos
+site_description: Open Source GIS using GeoNode, GeoServer, and PostgreSQL/PostGIS
+site_author: Matt McCormick
+theme: readthedocs
+use_directory_urls: false

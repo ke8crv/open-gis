@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/index.html", 
+            "text": "Welcome to Eratos!\n\n\nThis is an open source geographic information system (GIS) comprised of the following:\n\n\n\n\nGeoServer\n\n\nPostgresql\n\n\nGeoNode", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/index.html#welcome-to-eratos", 
+            "text": "This is an open source geographic information system (GIS) comprised of the following:   GeoServer  Postgresql  GeoNode", 
+            "title": "Welcome to Eratos!"
+        }, 
+        {
+            "location": "/hardware/misc/index.html", 
+            "text": "Miscellaneous Hardware\n\n\n\n\nAcryllic Case, cut with laser cutter\n\n\n12 A Power Supply\n\n\nUSB Fans\n\n\nUSB Voltage Meter\n\n\n40mm Brass Standoffs\n\n\nUART Cable\n\n\nCat 6 Cable\n\n\n8 Port Gigabit Ethernet Switch", 
+            "title": "Misc"
+        }, 
+        {
+            "location": "/hardware/misc/index.html#miscellaneous-hardware", 
+            "text": "Acryllic Case, cut with laser cutter  12 A Power Supply  USB Fans  USB Voltage Meter  40mm Brass Standoffs  UART Cable  Cat 6 Cable  8 Port Gigabit Ethernet Switch", 
+            "title": "Miscellaneous Hardware"
+        }, 
+        {
+            "location": "/hardware/odroid-c2/index.html", 
+            "text": "ODroid C2\n\n\n\n\nODroid C2 from \nAmeridroid.com\n\n\n16 GB eMMC \n\n\n32 GB SD Card\n\n\nUSB power cable\n\n\nVU7+ Touchscreen", 
+            "title": "Odroid c2"
+        }, 
+        {
+            "location": "/hardware/odroid-c2/index.html#odroid-c2", 
+            "text": "ODroid C2 from  Ameridroid.com  16 GB eMMC   32 GB SD Card  USB power cable  VU7+ Touchscreen", 
+            "title": "ODroid C2"
+        }, 
+        {
+            "location": "/hardware/rpi2/index.html", 
+            "text": "Raspberry Pi 2\n\n\n\n\nRaspberry Pi 2\n\n\nCopper Heatsink\n\n\n8 GB SD Card", 
+            "title": "Rpi2"
+        }, 
+        {
+            "location": "/hardware/rpi2/index.html#raspberry-pi-2", 
+            "text": "Raspberry Pi 2  Copper Heatsink  8 GB SD Card", 
+            "title": "Raspberry Pi 2"
+        }, 
+        {
+            "location": "/hardware/rpi3/index.html", 
+            "text": "Raspberry Pi 3\n\n\n\n\nRaspberry Pi 3\n\n\nCopper Heatsink\n\n\n16 GB SD Card\n\n\nRasbian\n\n\nCase\n\n\nOfficial Touchscreen", 
+            "title": "Rpi3"
+        }, 
+        {
+            "location": "/hardware/rpi3/index.html#raspberry-pi-3", 
+            "text": "Raspberry Pi 3  Copper Heatsink  16 GB SD Card  Rasbian  Case  Official Touchscreen", 
+            "title": "Raspberry Pi 3"
+        }, 
+        {
+            "location": "/hardware/sdr/index.html", 
+            "text": "Software Defined Radio\n\n\nRTL2328\n\n\nHackRF One", 
+            "title": "Sdr"
+        }, 
+        {
+            "location": "/hardware/sdr/index.html#software-defined-radio", 
+            "text": "", 
+            "title": "Software Defined Radio"
+        }, 
+        {
+            "location": "/hardware/sdr/index.html#rtl2328", 
+            "text": "", 
+            "title": "RTL2328"
+        }, 
+        {
+            "location": "/hardware/sdr/index.html#hackrf-one", 
+            "text": "", 
+            "title": "HackRF One"
+        }
+    ]
+}
