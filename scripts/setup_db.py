@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 from geoalchemy2 import Geometry
-
+import credentials
 Base = declarative_base()
 
 class APRS(Base):
@@ -24,7 +24,7 @@ class APRS(Base):
 	geom = Column(Geometry(geometry_type='POINT', srid=4326))
 	
 #engine = create_engine('sqlite:///test.sqlite')
-engine = create_engine('postgres://' + username + ':' + password +'@' + db_host +'/' + db_table)
+engine = create_engine('postgres://' + credentials.username + ':' + credentials.password +'@' + credentials.db_host +'/' + credentials.db_table)
 #db = create_engine('postgres+psycopg2://' + username + ':' + geonode +'@' + db_host + '/' + db_table')
 
 Base.metadata.create_all(engine)
