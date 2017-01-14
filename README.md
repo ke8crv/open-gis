@@ -21,7 +21,7 @@ Build a geographic information system (GIS) that can be quickly setup and deploy
 
 ###Webserver
 
-* Raspberry Pi 3
+* ODroid C2
 * Ubuntu Server
 * Geoserver
 * Apache2
@@ -30,9 +30,9 @@ Build a geographic information system (GIS) that can be quickly setup and deploy
 
 ###Database
 
-* Raspberry Pi 2
+* ODroid C2
 * Ubuntu Server
-* PostGRESQL
+* PostgreSQL
 * Post GIS Extension
 * Data
 
@@ -42,6 +42,7 @@ Build a geographic information system (GIS) that can be quickly setup and deploy
 * [Osmocom RTL-SDR](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
 * [multimon-ng](https://github.com/EliasOenal/multimon-ng)
 * georeceiver.py - custom python script to parse output of multimon-ng
+* aprs_parser.py - custom script to decode packets
 * [fldigi](http://www.w1hkj.com/)
 * ODroid C2
 
@@ -49,8 +50,6 @@ Build a geographic information system (GIS) that can be quickly setup and deploy
 
 * arecord
 * sox
-* morse
-* xdemorse
 * GNURadio 
 * git
 
