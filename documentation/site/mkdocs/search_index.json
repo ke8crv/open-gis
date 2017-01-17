@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/index.html", 
-            "text": "Welcome to Eratos!\n\n\nThis is an open source geographic information system (GIS) comprised of the following:\n\n\n\n\nGeoServer\n\n\nPostgresql\n\n\nGeoNode", 
+            "text": "Welcome to Open-GIS!\n\n\nThis is an open source geographic information system (GIS) comprised of the following:\n\n\n\n\nGeoServer\n\n\nPostgresql\n\n\nGeoNode", 
             "title": "Home"
         }, 
         {
-            "location": "/index.html#welcome-to-eratos", 
+            "location": "/index.html#welcome-to-open-gis", 
             "text": "This is an open source geographic information system (GIS) comprised of the following:   GeoServer  Postgresql  GeoNode", 
-            "title": "Welcome to Eratos!"
+            "title": "Welcome to Open-GIS!"
         }, 
         {
             "location": "/hardware/misc/index.html", 
@@ -69,6 +69,31 @@
             "location": "/hardware/sdr/index.html#hackrf-one", 
             "text": "", 
             "title": "HackRF One"
+        }, 
+        {
+            "location": "/how-to/qgis_crs/index.html", 
+            "text": "QGIS and CRS\n\n\n\n\n\n\nCreate new QGIS Project\n\n\n\n\n\n\nSettings -\n Options -\n CRS\n\n\n\n\n\n\nAlways start new projects with the following CRS:\n\n\n\n\n\n\nEPSG:102123, NAD_1983_Michigan_GeoRef_Meters\n\n\nCreating a Buffer\n\n\n\n\n\n\nRight click on layer and choose Save As\n\n\n\n\n\n\nSave layer using the michigan georef crs\n\n\n\n\n\n\nPerform the buffer on the new layer", 
+            "title": "Qgis crs"
+        }, 
+        {
+            "location": "/how-to/qgis_crs/index.html#qgis-and-crs", 
+            "text": "Create new QGIS Project    Settings -  Options -  CRS    Always start new projects with the following CRS:    EPSG:102123, NAD_1983_Michigan_GeoRef_Meters", 
+            "title": "QGIS and CRS"
+        }, 
+        {
+            "location": "/how-to/qgis_crs/index.html#creating-a-buffer", 
+            "text": "Right click on layer and choose Save As    Save layer using the michigan georef crs    Perform the buffer on the new layer", 
+            "title": "Creating a Buffer"
+        }, 
+        {
+            "location": "/how-to/topo_to_tif/index.html", 
+            "text": "Topo Map PDF to Tif\n\n\nUSTopo2GTIF\n\n\nAssume MN_Grand_Marais_20160511_TM_geo.pdf is the pdf you want to add to the GIS\n\n\ngdalinfo MN_Grand_Marais_20160511_TM_geo.pdf --mdd LAYERS\n\n\n\n\n\nUse the list of layers to use in the \nGDAL_PDF_LAYERS\n command\n\n\ngdal_translate MN_Grand_Marais_20160511_TM_geo.pdf marais_contours.tif \\\n--config GDAL_PDF_LAYERS \nMap_Frame.Terrain.Contours\n --config GDAL_PDF_BANDS 3 \\\n--config GDAL_PDF_DPI 400", 
+            "title": "Topo to tif"
+        }, 
+        {
+            "location": "/how-to/topo_to_tif/index.html#topo-map-pdf-to-tif", 
+            "text": "USTopo2GTIF  Assume MN_Grand_Marais_20160511_TM_geo.pdf is the pdf you want to add to the GIS  gdalinfo MN_Grand_Marais_20160511_TM_geo.pdf --mdd LAYERS  Use the list of layers to use in the  GDAL_PDF_LAYERS  command  gdal_translate MN_Grand_Marais_20160511_TM_geo.pdf marais_contours.tif \\\n--config GDAL_PDF_LAYERS  Map_Frame.Terrain.Contours  --config GDAL_PDF_BANDS 3 \\\n--config GDAL_PDF_DPI 400", 
+            "title": "Topo Map PDF to Tif"
         }
     ]
 }

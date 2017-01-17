@@ -43,9 +43,16 @@
 - Alerts when people enter/exit certain areas (geofences)
 - Mobile apps for data collection on scene
 - Rubbersheet maps received via slow scan tv or other methods
+- Export maps in image to send over slow scan tv or other methods
 - Use elevation data to site selection for antenna/towers
 - Triangulation/Trilateration
 - Line of sight analyses
+- Add data to US Topo Maps and republish for local needs
+- Keep track of Callsigns/Identifiers and get alerts/reports when no longer receiving packets
+- Join point layer to other tables of information based on callsign
+- Log all data but display only most recent data using database views
+
+
 
 ## GIS
 
@@ -102,6 +109,13 @@
     - Basemaps
 	- Building Footprints
 - [More...](http://www.ke8crv.com)
+
+## Data Sources
+
+| Layer		     			| Source				                                      		|
+|---------------------------|-------------------------------------------------------------------|
+| UTM Zones					| [http://earth-info.nga.mil/GandG/coordsys/grids/universal_grid_system.html](http://earth-info.nga.mil/GandG/coordsys/grids/universal_grid_system.html)
+
 
 ## Block Diagram
 

@@ -4,7 +4,7 @@
     
     <url>
      <loc>/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,31 +13,47 @@
         
     <url>
      <loc>/hardware/misc/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hardware/odroid-c2/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hardware/rpi2/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hardware/rpi3/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/hardware/sdr/index.html</loc>
-     <lastmod>2016-12-13</lastmod>
+     <lastmod>2017-01-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/how-to/qgis_crs/index.html</loc>
+     <lastmod>2017-01-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/how-to/topo_to_tif/index.html</loc>
+     <lastmod>2017-01-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
