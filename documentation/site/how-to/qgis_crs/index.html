@@ -8,7 +8,7 @@
   
   <meta name="author" content="Matt McCormick">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Misc - Open-GIS</title>
+  <title>Qgis crs - Open-GIS</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Misc";
-    var mkdocs_page_input_path = "hardware\\misc.md";
-    var mkdocs_page_url = "/hardware/misc/index.html";
+    var mkdocs_page_name = "Qgis crs";
+    var mkdocs_page_input_path = "how-to\\qgis_crs.md";
+    var mkdocs_page_url = "/how-to/qgis_crs/index.html";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -59,43 +59,36 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="index.html">Misc</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#miscellaneous-hardware">Miscellaneous Hardware</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../hardware/misc/index.html">Misc</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../odroid-c2/index.html">Odroid c2</a>
+        <a class="" href="../../hardware/odroid-c2/index.html">Odroid c2</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../rpi2/index.html">Rpi2</a>
+        <a class="" href="../../hardware/rpi2/index.html">Rpi2</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../rpi3/index.html">Rpi3</a>
+        <a class="" href="../../hardware/rpi3/index.html">Rpi3</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../sdr/index.html">Sdr</a>
+        <a class="" href="../../hardware/sdr/index.html">Sdr</a>
         
     </li>
 
@@ -109,15 +102,24 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../../how-to/qgis_crs/index.html">Qgis crs</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Qgis crs</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#qgis-and-crs">QGIS and CRS</a></li>
+                
+                    <li><a class="toctree-l4" href="#creating-a-buffer">Creating a Buffer</a></li>
+                
+            
+            </ul>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../how-to/topo_to_tif/index.html">Topo to tif</a>
+        <a class="" href="../topo_to_tif/index.html">Topo to tif</a>
         
     </li>
 
@@ -147,11 +149,11 @@
     
       
         
-          <li>Hardware &raquo;</li>
+          <li>How to &raquo;</li>
         
       
     
-    <li>Misc</li>
+    <li>Qgis crs</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -161,17 +163,31 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="miscellaneous-hardware">Miscellaneous Hardware</h1>
-<ul>
-<li>Acryllic Case, cut with laser cutter</li>
-<li>12 A Power Supply</li>
-<li>USB Fans</li>
-<li>USB Voltage Meter</li>
-<li>40mm Brass Standoffs</li>
-<li>UART Cable</li>
-<li>Cat 6 Cable</li>
-<li>8 Port Gigabit Ethernet Switch</li>
-</ul>
+                <h1 id="qgis-and-crs">QGIS and CRS</h1>
+<ol>
+<li>
+<p>Create new QGIS Project</p>
+</li>
+<li>
+<p>Settings -&gt; Options -&gt; CRS</p>
+</li>
+<li>
+<p>Always start new projects with the following CRS:</p>
+</li>
+</ol>
+<p><code>EPSG:102123, NAD_1983_Michigan_GeoRef_Meters</code></p>
+<h2 id="creating-a-buffer">Creating a Buffer</h2>
+<ol>
+<li>
+<p>Right click on layer and choose Save As</p>
+</li>
+<li>
+<p>Save layer using the michigan georef crs</p>
+</li>
+<li>
+<p>Perform the buffer on the new layer</p>
+</li>
+</ol>
               
             </div>
           </div>
@@ -179,10 +195,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../odroid-c2/index.html" class="btn btn-neutral float-right" title="Odroid c2">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../topo_to_tif/index.html" class="btn btn-neutral float-right" title="Topo to tif">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../index.html" class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../hardware/sdr/index.html" class="btn btn-neutral" title="Sdr"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -208,10 +224,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../hardware/sdr/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../odroid-c2/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../topo_to_tif/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
