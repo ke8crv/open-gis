@@ -55,7 +55,7 @@ c = combine_dicts(a, b)
 
 '''
 import urllib2, urllib, csv, json, pprint  #, #itertools
-import time
+import time, os
 from random import randint
 
 '''
@@ -78,6 +78,8 @@ def buildHeader(data_list):
 
 def saveCSV(filename, data_list):
 
+	
+	
     with open(filename, 'wb') as csvfile:
 
         for x in data_list:
@@ -85,7 +87,9 @@ def saveCSV(filename, data_list):
 
 def saveFile(filename, data):
 
-    with open(filename, 'wb') as my_file:
+    output_dir = "c:\Temp"
+	
+    with open(os.path.join(output_dir,filename), 'wb') as my_file:
         my_file.write(data)
         
 
@@ -250,10 +254,12 @@ def downloadLayer(layer_url, filename):
         print "Error: ", e
 
 def test():
-    #mapserver_url = r"http://gisago.mcgi.state.mi.us/arcgis/rest/services/DNR/dnrTrails/MapServer"
+    mapserver_url = r"http://gisago.mcgi.state.mi.us/arcgis/rest/services/DNR/dnrTrails/MapServer"
     #mapserver_url = r"https://gisp.mcgi.state.mi.us/arcgis/rest/services/DNR/Wildfire/MapServer"
-    mapserver_url = r"https://gisago.mcgi.state.mi.us/arcgis/rest/services/BaseMap/StreetMap/MapServer"
+    #mapserver_url = r"https://gisago.mcgi.state.mi.us/arcgis/rest/services/BaseMap/StreetMap/MapServer"
     
+    output_dir = r"c:\Temp\DNR"
+	
     print "Mapserver:" + mapserver_url
     layers  = getLayers(mapserver_url)
     for layer in layers:
@@ -272,8 +278,10 @@ def test2():
     #filename = "fema_nss_post.json"
     #layer_url = r"http://gisago.mcgi.state.mi.us/arcgis/rest/services/DNR/dnrTrails/MapServer/13"
     #filename = "mdnr_designated_snowmobile_trails"
-    layer_url = r"https://gisp.mcgi.state.mi.us/arcgis/rest/services/MEDC/PureMichigan_MapService/MapServer/0"
-    filename = "mdec_pure_michigan_properties"
+    #layer_url = r"https://gisp.mcgi.state.mi.us/arcgis/rest/services/MEDC/PureMichigan_MapService/MapServer/0"
+    #filename = "mdec_pure_michigan_properties"
+    layer_url = r"http://gisago.mcgi.state.mi.us/arcgis/rest/services/BaseMap/StreetMap/MapServer/1"
+    filename = "great_lakes"
     downloadLayer(layer_url, filename)
     
     #print getMaxRecordCount(layer_url)
@@ -282,8 +290,8 @@ if __name__ == "__main__":
 
     start_time = time.time()
     #main()
-    #test2()
-    test()
+    test2()
+    #test()
     end_time = time.time()
     print("--- %s seconds ---" % (time.time() - start_time))
     
